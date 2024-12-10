@@ -17,10 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-document.getElementById('download-btn').addEventListener('click', function() {
-    window.open('https://tomtamx.xyz/TomTamXInstaller.exe', '_blank');
-});
-
 document.addEventListener("contextmenu", function(e) {
     e.preventDefault();
 });
